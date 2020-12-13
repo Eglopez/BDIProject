@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS Drawing (
   id INT AUTO_INCREMENT NOT NULL COMMENT "Auto Incremental",
   id_user INT NOT NULL COMMENT "id of the drawing creator",
   str_name VARCHAR(45) NOT NULL COMMENT "Name of the drawing",
-  jso_drawingData JSON NOT NULL COMMENT "Drawing content",
+  jso_drawingData LONGTEXT NOT NULL COMMENT "Drawing content",
   PRIMARY KEY (id),
   FOREIGN KEY (id_user) REFERENCES User(id)  ON DELETE CASCADE
 ) COMMENT "Table of drawings";

@@ -64,6 +64,7 @@ class DrawingWindow(tkinter.Frame):
         # The same applies for loadFile, addToFile, and saveFile below. The 
         # "Exit" menu item below calls quit on the "master" or root window. 
         def newWindow():
+            self.myDraw.clear()
             theTurtle.clear()
             theTurtle.penup()
             theTurtle.goto(0,0)

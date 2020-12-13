@@ -122,5 +122,8 @@ Diseño del diagrama Entidad Relacion de la base  de datos de respaldo:
         * 0_tables.sql
         * 1_procedures.sql
         * 2_triggers.sql
+* Al inicializar las bases de datos cuentan con un unico usuario registrado que es el superusuario(administrador) y para el login sus datos a continuación.
+    * username: admin
+    * password: admin
 
 * Mas informacion de las bases de datos consultar el documento de Diseño de las Bases de Datos: [Design Document](DatabasesDesignDocument.pdf)
